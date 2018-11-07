@@ -7,7 +7,7 @@ We are predicting three emotion classifications:
 * Profile of Mood States (POMS) six mood states.
 
 
-###Steps to run
+### Steps to run
 Uninstall any older versions, if any, of keras and theano
 pip install keras==1.1.0
 pip install theano==0.8.2
