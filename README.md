@@ -6,6 +6,15 @@ We are predicting three emotion classifications:
 * Plutchik's eight basic emotions,
 * Profile of Mood States (POMS) six mood states.
 
+
+###Steps to run
+Uninstall any older versions, if any, of keras and theano
+pip install keras==1.1.0
+pip install theano==0.8.2
+In file /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py :
+  Add line: tf.python.control_flow_ops = tf
+
+
 ### Example Usage
 The following examples show how to predict Ekman's emotions from tweet's content.
 First let's import `EmotionPredictor`.
